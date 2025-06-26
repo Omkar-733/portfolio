@@ -1,0 +1,78 @@
+@keyframes star-1 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes star-2 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(50%, -50%) scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes star-3 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(0, -50%) scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes star-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.skill-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.skill-icon:hover {
+  opacity: 1;
+}
+
+/* Add these classes to use the animations */
+.animate-star-1 {
+  animation: star-1 5s infinite;
+}
+
+.animate-star-2 {
+  animation: star-2 5s infinite;
+}
+
+.animate-star-3 {
+  animation: star-3 5s infinite;
+}
+
+.animate-star-blink {
+  animation: star-blink 2s infinite;
+}

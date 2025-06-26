@@ -1,0 +1,55 @@
+/* Add proper spacing between sections with transparent background */
+section {
+  border: none !important;
+  margin: 4rem 0 !important;
+  padding: 2rem 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Ensure text visibility */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
+
+/* Add smooth transitions for interactive elements */
+a, button, .card, .skill-card, .project-card {
+  transition-property: transform, opacity !important;
+  transition-duration: 300ms !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Hover effects */
+a:hover, button:hover {
+  transform: translateY(-2px) !important;
+  opacity: 0.9 !important;
+}
+
+.card:hover, .skill-card:hover, .project-card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Remove any decorative elements */
+section::before,
+section::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* Remove any additional borders that might be added */
+* {
+  border: none !important;
+  outline: none !important;
+}
+
+/* Add spacing for first and last sections */
+section:first-of-type {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+section:last-of-type {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}

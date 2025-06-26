@@ -1,0 +1,66 @@
+{
+  "skills": {
+    "programming": [
+      { "name": "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+      { "name": "JavaScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+      { "name": "Java", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+      { "name": "C++", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
+      { "name": "PHP", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" }
+    ],
+    "frontend": [
+      { "name": "React", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+      { "name": "HTML5", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+      { "name": "CSS3", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+      { "name": "Tailwind CSS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" }
+    ],
+    "backend": [
+      { "name": "Node.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+      { "name": "Express.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
+      { "name": "Django", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" },
+      { "name": "Flask", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" }
+    ],
+    "database": [
+      { "name": "MySQL", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+      { "name": "MongoDB", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+      { "name": "PostgreSQL", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" }
+    ],
+    "tools": [
+      { "name": "Git", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+      { "name": "Docker", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+      { "name": "AWS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" },
+      { "name": "GitHub Actions", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" }
+    ],
+    "ai_ml": [
+      { "name": "TensorFlow", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
+      { "name": "PyTorch", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
+      { "name": "OpenCV", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" },
+      { "name": "Scikit-learn", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" }
+    ]
+  },
+  "projects": [
+    {
+      "name": "Digital Log Book System",
+      "description": "Created a digital platform for logging student activities using PHP and MySQL. Enhanced record-keeping accuracy and reduced paper usage with a user-friendly interface.",
+      "demo": "",
+      "github": ""
+    },
+    {
+      "name": "Link Shrinker",
+      "description": "Built a URL shortening tool using Node.js and Express, allowing dynamic link generation and tracking. Used MongoDB to store original/shortened URLs and implemented click analytics.",
+      "demo": "",
+      "github": ""
+    },
+    {
+      "name": "Defect Handling System",
+      "description": "Developed a complaint registration web app using Java Servlets and JSP for user interaction and status monitoring. Integrated with Oracle Database for secure complaint storage, admin updates, and role-based access control.",
+      "demo": "",
+      "github": ""
+    },
+    {
+      "name": "Student Feedback System",
+      "description": "Designed a feedback collection platform using HTML, PHP, and MySQL to evaluate course and faculty effectiveness. Enabled structured data analysis for academic improvement through admin-controlled reports.",
+      "demo": "",
+      "github": ""
+    }
+  ]
+}

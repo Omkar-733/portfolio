@@ -1,0 +1,22 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add CSS variables for colors */
+:root {
+  --background-color: #ffffff;
+  --text-color: #ffffff;
+}
+
+/* Any other custom global CSS should go BELOW these directives */
+html {
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+  display: none;
+}

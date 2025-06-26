@@ -1,0 +1,8 @@
+/* Simple background */
+body {
+  background-color: var(--background-color);
+}
+
+.dark body {
+  background-color: var(--dark-background-color);
+}
