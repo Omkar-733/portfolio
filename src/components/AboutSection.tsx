@@ -17,22 +17,32 @@ const AboutSection: React.FC = () => {
   }, []);
 
   const professionalJourney = [
+        {
+      year: "May 2025-June 2025",
+      title: "System Developer",
+      organization: "Visakhapatnam Steel Plant",
+      location: "Visakhapatnam, Andhra Pradesh", 
+      description: "Designed and implemented a comprehensive defect management system, streamlining industrial operations and improving quality control processes.",
+      type: "Professional"
+    },
+    {year: "2025",
+      title: "Game Developer",
+      organization: "APSSDC",
+      location: "Virtual", 
+      description: "Designed and implemented Game called 3D Tanks,for multiplayer from single device which gives more fun and responsive.",
+      type: "project"
+      
+    },
     {
-      year: "2024",
+      year: "2023",
       title: "Software Engineering Intern",
       organization: "Visakhapatnam Port Trust",
       location: "Visakhapatnam, Andhra Pradesh",
       description: "Gained hands-on experience in computational problem-solving and advanced software development methodologies within a critical infrastructure environment.",
       type: "professional"
     },
-    {
-      year: "2024",
-      title: "System Developer",
-      organization: "Visakhapatnam Steel Plant",
-      location: "Visakhapatnam, Andhra Pradesh", 
-      description: "Designed and implemented a comprehensive defect management system, streamlining industrial operations and improving quality control processes.",
-      type: "project"
-    },
+
+    
     {
       year: "2022-Present",
       title: "Bachelor of Technology",
