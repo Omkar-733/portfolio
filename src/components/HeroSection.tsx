@@ -159,16 +159,16 @@ const HeroSection = () => {
             </span>
           </a>
           <a
-            href="Resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group relative px-8 py-4 border-2 border-purple-400 text-purple-400 rounded-full font-semibold text-lg hover:bg-purple-400 hover:text-white transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 backdrop-blur-sm bg-white/5"
-          >
-            <span className="flex items-center justify-center">
-              Download CV
-              <Download className="ml-2 w-5 h-5 group-hover:bounce transition-transform duration-300" />
-            </span>
-          </a>
+  href="/Resume.pdf"              // Ensure file is in the public folder
+  download="OmkarVenkat_Resume.pdf" // Optional custom filename
+  className="group relative px-8 py-4 border-2 border-purple-400 text-purple-400 rounded-full font-semibold text-lg hover:bg-purple-400 hover:text-white transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 backdrop-blur-sm bg-white/5"
+>
+  <span className="flex items-center justify-center">
+    Download CV
+    <Download className="ml-2 w-5 h-5 group-hover:animate-bounce transition-transform duration-300" />
+  </span>
+</a>
+
         </div>
 
         {/* Scroll Indicator */}
