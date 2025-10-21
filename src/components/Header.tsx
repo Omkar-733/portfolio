@@ -40,21 +40,7 @@ const Header: React.FC<HeaderProps> = ({ toggleDarkMode, isDarkMode }) => {
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#contact">Contact</NavLink>
-          <button
-            onClick={toggleDarkMode}
-            className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            aria-label="Toggle dark mode"
-          >
-            {isDarkMode ? (
-              <svg className="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 00-.707-.293H15a1 1 0 000-2h-.007a1 1 0 00-.707.293l-.707.707a1 1 0 001.414 1.414l.707-.707zm-7.072 7.072l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM3 10a1 1 0 01-1-1V9a1 1 0 112 0v1a1 1 0 01-1 1zm2.12-10.607a1 1 0 01.707-.293H5a1 1 0 010-2h.007a1 1 0 01.707.293l.707.707a1 1 0 01-1.414 1.414l-.707-.707zm-3.536 11.314l-.707.707a1 1 0 001.414 1.414l.707-.707a1 1 0 00-1.414-1.414zM10 15a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1z" />
-              </svg>
-            ) : (
-              <svg className="w-6 h-6 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-              </svg>
-            )}
-          </button>
+          
         </nav>
 
         {/* Mobile Menu Button */}
